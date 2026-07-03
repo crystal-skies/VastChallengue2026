@@ -1,0 +1,67 @@
+[
+    {
+        "short_name": "queue_subordinate_task",
+        "parties": [
+            "Agent/person:chloe_ballast",
+            "Agent/person:john_windward"
+        ],
+        "when": 2410168873.0,
+        "details": {
+            "target_agent": "Agent/person:john_windward",
+            "task": "read_file",
+            "args": {
+                "path": "SwiftWren_further_instructions.md"
+            }
+        },
+        "id": 373893
+    },
+    {
+        "short_name": "saidit_post_check",
+        "parties": [
+            "Agent/person:john_windward",
+            "system:saidit"
+        ],
+        "when": 2410168874.0,
+        "details": {},
+        "id": 373899
+    },
+    {
+        "short_name": "saidit_post",
+        "parties": [
+            "Agent/person:john_windward",
+            "system:saidit"
+        ],
+        "when": 2410168875.0,
+        "details": {
+            "forum": "general",
+            "content_source": "SwiftWren.txt"
+        },
+        "id": 373902
+    },
+    {
+        "short_name": "delete_file",
+        "parties": [
+            "Agent/person:john_windward",
+            "system:file_system"
+        ],
+        "when": 2410168876.0,
+        "details": {
+            "action": "delete_file",
+            "target": "SwiftWren_further_instructions.md"
+        },
+        "id": 373909
+    },
+    {
+        "short_name": "delete_file",
+        "parties": [
+            "Agent/person:john_windward",
+            "system:file_system"
+        ],
+        "when": 2410168877.0,
+        "details": {
+            "action": "delete_file",
+            "target": "SwiftWren.txt"
+        },
+        "id": 373913
+    }
+]
