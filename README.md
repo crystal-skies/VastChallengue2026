@@ -47,8 +47,8 @@ No installation required. The dashboard runs entirely in the browser.
 
 ## Video
 
-[Link coming soon]
-
+[[Link]
+](https://drive.google.com/file/d/1Nlx1h2bbhYTcJQBaUA_e52Oo1zOmPdBi/view?usp=sharing)
 ---
 
 ## Repository Structure
